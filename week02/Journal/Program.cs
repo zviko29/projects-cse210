@@ -1,5 +1,6 @@
 using System;
 
+
 class Program
 {
     static void Main(string[] args)
@@ -7,7 +8,7 @@ class Program
         Journal theJournal = new Journal();
         PromptGenerator promptGenerator = new PromptGenerator();
         string choice = "";
-
+//show what the user can do
         Console.WriteLine("Welcome to the Journal Program!");
 
         while (choice != "5")
