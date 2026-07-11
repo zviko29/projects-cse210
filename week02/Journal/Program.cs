@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-         Journal  theJournal = new Journal();
+        Journal theJournal = new Journal();
         PromptGenerator promptGenerator = new PromptGenerator();
         string choice = "";
 
@@ -58,6 +58,5 @@ class Program
             }
         }
     }
-}
-        
+}    
     
