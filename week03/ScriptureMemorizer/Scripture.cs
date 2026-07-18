@@ -13,7 +13,7 @@ public class Scripture
         _reference = reference;
         _words = new List<Word>();
         
-        // Split by space to get words
+        // Splitting by space 
         string[] wordArray = text.Split(' ');
         foreach (string word in wordArray)
         {
@@ -29,7 +29,7 @@ public class Scripture
         {
             int index = _random.Next(visibleWords.Count);
             visibleWords[index].Hide();
-            visibleWords.RemoveAt(index); // remove so we don't pick it again
+            visibleWords.RemoveAt(index); // removing so the user doesn't use it again
         }
     }
 

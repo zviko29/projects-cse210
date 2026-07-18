@@ -31,7 +31,7 @@ class Program
 
             if (userInput.ToLower()!= "quit")
             {
-                scripture.HideRandomWords(3); // hide 3 words each time
+                scripture.HideRandomWords(3); // hide 3 words each time they press enter
             }
         }
 

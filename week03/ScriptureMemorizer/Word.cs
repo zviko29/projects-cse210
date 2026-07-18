@@ -23,7 +23,7 @@ public class Word
     {
         if (_isHidden)
         {
-            // Only hide letters, keep punctuation
+            
             string underscores = "";
             foreach (char c in _text)
             {

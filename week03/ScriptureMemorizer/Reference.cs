@@ -5,7 +5,7 @@ public class Reference
     private int _verse;
     private int _endVerse;
 
-    // Constructor for single verse: John 3:16
+    // Constructor for single verse :Amos 3:7
     public Reference(string book, int chapter, int verse)
     {
         _book = book;
@@ -14,7 +14,7 @@ public class Reference
         _endVerse = verse;
     }
 
-    // Constructor for verse with long range: Proverbs 3:5-6
+    // Constructor for verse with long range: 2Nephi 5:17-18
     public Reference(string book, int chapter, int startVerse, int endVerse)
     {
         _book = book;
